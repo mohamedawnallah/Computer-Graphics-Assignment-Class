@@ -1,3 +1,14 @@
+## Installation
+1. Run the following command:
+```
+pip install -r requirements.txt
+```
+2. Run `main.py` file using the following command:
+```
+python main.py
+```
+
+## Introduction
 This code generates a basic visualization of lines and circles using two fundamental algorithms: Digital Differential Analyzer (DDA) for line generation and the Midpoint Circle Algorithm for circle generation.
 
 Here's a breakdown of the code:
@@ -26,7 +37,11 @@ The code uses Matplotlib to visualize the generated points as lines or circles b
 
 This script can be a helpful starting point for understanding these basic graphics algorithms and their implementation in computer graphics. It showcases how lines and circles can be drawn using simple mathematical calculations and iterative approaches.
 
+Midpoint circle drawing algorithm visualization example output:
+![assets/midpoint](./assets/midpoint.png)
 
+DDA Line Generation algorithm visualization example output:
+![assets/dda_line](./assets/dda_line.png)
 
 ## Graphics Algorithms Documentation
 
